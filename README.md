@@ -1,10 +1,16 @@
 # eslint-config
 ES Lint Config for W11K Projects
 
-# files
-Typescript: `@w11k/eslint-config/lib/typescript.recommended`
-Angular: `@w11k/eslint-config/lib/angular.recommended`
-React: `@w11k/eslint-config/lib/react.recommended`
+If you're migration from Angular tslint to eslint consider following this update guideline: https://github.com/angular-eslint/angular-eslint
+and use the `.eslintrc.json` file below to get started.
+
+# Install
+`npm i @w11k/eslint-config`
+
+# Configuration
+- Typescript: `@w11k/eslint-config/lib/typescript.recommended`
+- Angular: `@w11k/eslint-config/lib/angular.recommended`
+- React: `@w11k/eslint-config/lib/react.recommended`
 
 ## .eslintrc.json
 ```json
