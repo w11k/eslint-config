@@ -12,7 +12,7 @@ and use the `.eslintrc.json` file below to get started.
 - Angular: `@w11k/eslint-config/lib/angular.recommended`
 - React: `@w11k/eslint-config/lib/react.recommended`
 
-## .eslintrc.json
+## .eslintrc.json for angular
 ```json
 {
   "root": true,
@@ -65,4 +65,36 @@ and use the `.eslintrc.json` file below to get started.
     }
   ]
 }
+```
+
+## .eslintrc.js for gatsby
+```
+module.exports = {
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
+  "extends": [
+    "@w11k/eslint-config/lib/react.recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ],
+    "createDefaultProgram": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "rules": {
+        ...your overridden rules
+      }
+    }
+  ]
+}
+
 ```
