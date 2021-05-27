@@ -12,7 +12,9 @@ and use the `.eslintrc.json` file below to get started.
 - Angular: `@w11k/eslint-config/lib/angular.recommended`
 - React: `@w11k/eslint-config/lib/react.recommended`
 
-## .eslintrc.json for angular
+## Angular
+
+`.eslintrc.json`
 ```json
 {
   "root": true,
@@ -67,7 +69,46 @@ and use the `.eslintrc.json` file below to get started.
 }
 ```
 
-## .eslintrc.js for gatsby
+## create-react-app
+
+### 1. Install `npm i --save-dev @w11k/eslint-config` or `yarn add -D @w11k/eslint-config`  
+
+### 2. delete this es-lint related section from `package.json`
+```json
+"eslintConfig": {
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ]
+},
+```
+
+### 3. Add file `.eslintrc.js` to the project root
+```
+module.exports = {
+    "root": true,
+    "ignorePatterns": [
+        "projects/**/*"
+    ],
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "@w11k/eslint-config/lib/react.recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": [
+            "./tsconfig.json"
+        ],
+        "createDefaultProgram": true
+    },
+    "overrides": []
+}
+```
+
+
+## Gatsby
+`.eslintrc.js`
 ```
 module.exports = {
   "root": true,
