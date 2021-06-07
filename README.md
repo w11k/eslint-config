@@ -5,7 +5,7 @@ If you're migration from Angular tslint to eslint consider following this update
 and use the `.eslintrc.json` file below to get started.
 
 # Install
-`npm i @w11k/eslint-config`
+`npm i --save-dev @w11k/eslint-config`
 
 # Configuration
 - Typescript: `@w11k/eslint-config/lib/typescript.recommended`
