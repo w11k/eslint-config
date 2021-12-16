@@ -1,6 +1,6 @@
 {
   "name": "@w11k/eslint-config",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "eslint config user at W11K",
   "main": "index.js",
   "scripts": {
