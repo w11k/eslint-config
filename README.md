@@ -14,8 +14,11 @@ and use the `.eslintrc.json` file below to get started.
 
 ##  Breaking Changes
 - Angular <= 12: Use Plugin Version `0.1.2`
-- Angular > 13: Use Plugin Version `0.2.x`
+- Angular > 13: Use Plugin Version `1.x.x`
 
+## EditorConfig
+The current Version of the `.editorconfig` used at W11K is also [HERE](.editorconfig)
+Just download it and include it in the root folder of your project
 
 ## Angular
 
