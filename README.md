@@ -99,8 +99,6 @@ module.exports = {
         "projects/**/*"
     ],
     "extends": [
-        "react-app",
-        "react-app/jest",
         "@w11k/eslint-config/lib/react.recommended"
     ],
     "parser": "@typescript-eslint/parser",
