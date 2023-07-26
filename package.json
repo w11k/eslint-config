@@ -1,25 +1,25 @@
 {
   "name": "@w11k/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "eslint config user at W11K",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@angular-eslint/eslint-plugin": "^13.0.1",
-    "@angular-eslint/eslint-plugin-template": "^13.0.1",
-    "@angular-eslint/template-parser": "^13.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.3.0",
-    "@typescript-eslint/parser": "^5.3.0",
-    "eslint": "^8.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsdoc": "^30.7.6",
-    "eslint-plugin-prefer-arrow": "1.2.2",
-    "eslint-plugin-rxjs": "^2.1.5"
+    "@angular-eslint/eslint-plugin": "16.1.0",
+    "@angular-eslint/eslint-plugin-template": "16.1.0",
+    "@angular-eslint/template-parser": "16.1.0",
+    "@typescript-eslint/eslint-plugin": "6.2.0",
+    "@typescript-eslint/parser": "6.2.0",
+    "eslint": "8.45.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "46.4.4",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-rxjs": "5.0.3"
   },
   "peerDependencies": {
-    "eslint": ">= 7"
+    "eslint": ">= 8"
   },
   "repository": {
     "type": "git",
